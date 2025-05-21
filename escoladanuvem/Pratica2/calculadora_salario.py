@@ -10,10 +10,10 @@ Imprima o número do funcionário e o salário calculado com **duas casas decima
 
 
 numero_funcionario = int(input("Insira o número do funcionário: "))
-horas_trabalhadas = int(input("Insira a quantidade de horas trabalhadas: "))
+hora_trabalhada = int(input("Insira a quantidade de horas trabalhadas: "))
 valor_por_hora = float(input("Insira o valor recebido por hora: "))
 
-salario = horas_trabalhadas * valor_por_hora
+salario = hora_trabalhada * valor_por_hora
 
 print(f"NUMBER = {numero_funcionario}")
 print(f"SALARY = $ {salario:.2f}")
